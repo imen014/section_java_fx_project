@@ -1,0 +1,22 @@
+/* style.css */
+
+/* Style général pour les boutons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white; /* Texte blanc */
+    -fx-font-size: 14px; /* Taille de police */
+    -fx-padding: 10px; /* Espacement interne */
+}
+
+/* Style pour les champs de texte */
+.text-field {
+    -fx-border-color: #4CAF50; /* Bordure verte */
+    -fx-border-width: 2px; /* Largeur de la bordure */
+    -fx-padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les labels */
+.label {
+    -fx-font-size: 16px; 
+    -fx-text-fill: #333;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emp_management.EmployeeManagementController">
+   <children>
+      <TableView fx:id="employeesTable"  prefHeight="585.0" prefWidth="890.0">
+        <columns>
+          <TableColumn fx:id="usernameColumn" prefWidth="117.0" text="username" />
+          <TableColumn fx:id="passwordColumn" prefWidth="152.0" text="password" />
+            <TableColumn fx:id="emailColumn" prefWidth="408.0" text="email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
